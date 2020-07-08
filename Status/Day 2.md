@@ -413,7 +413,19 @@ for line in map(str.upper, user_input()):
     print(line)
 ```
 
----
+#**OR**
+#There was a problem with the first solution using Python3, which I modified
+```python
+lst = []
+while True:
+    x = input()
+    # if len(x) == 0:
+    #     break
+    lst.append(x.upper())
+    for line in lst:
+      print(line)
+    lst = []
+```
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%201.md "Day 1")
 
