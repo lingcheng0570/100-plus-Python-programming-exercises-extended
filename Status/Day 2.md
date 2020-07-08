@@ -415,6 +415,20 @@ for line in map(str.upper, user_input()):
 
 ---
 
+**My Solution: Python 3**
+#There was a problem with the first solution using Python3, which I modified
+```python
+lst = []
+while True:
+    x = input()
+    # if len(x) == 0:
+    #     break
+    lst.append(x.upper())
+    for line in lst:
+      print(line)
+    lst = []
+```
+
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%201.md "Day 1")
 
 [**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3")
